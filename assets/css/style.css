@@ -1,0 +1,10 @@
+.music {
+    background-image: url('../images/music-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.video {
+    background-image: url('../images/video-bg.jpg');
+    background-repeat: no-repeat;
+}

@@ -8,7 +8,7 @@
     <title>Die Antwoord | Unofficial website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -17,26 +17,49 @@
     <!-------------------------------------- HOME -------------------------------------------->
 
 
-
-    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top d-flex">
-        <img src="#" class="img-fluid" alt="Responsive image">Logo</img>
-        <ul class="nav bg-dark justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#music">Music</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#video">Video</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#concerts">Concerts</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="assets/images/logo2.png" class="img-fluid logo" alt="Logo"></img></a>
+            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar">     
+            <span class="navbar-toggler-icon"></span>
+              <ul class="navbar-nav ml-auto navbar-collapse collapse">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Video</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link" href="#concerts">Concerts</a>
+                    </li>
+                </ul>
+                
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#concerts">Concerts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <header>
@@ -105,7 +128,7 @@
 
     <!--------- youtube video ----------->
 
-    <section class="video jumbotron" id="video">
+    <section class="video" id="video">
         <div class="container-fluid">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/AIXUgtNC4Kc?start=104" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
